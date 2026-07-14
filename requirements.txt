@@ -1,0 +1,39 @@
+# Core data science
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.12
+joblib>=1.3
+
+# Statistical testing & power analysis
+statsmodels>=0.14
+
+# Machine learning
+scikit-learn>=1.3
+
+# Uplift modeling (sklearn-style API, Qini/AUUC metrics, plots)
+scikit-uplift>=0.5.1
+
+# Causal ML meta-learners + uplift forests
+# Tip: on Windows, install via conda to avoid C++ build issues:
+#   conda install -c conda-forge causalml
+causalml>=0.15.0
+
+# Causal forests (requires Microsoft C++ Build Tools on Windows)
+# Install separately: pip install econml
+# Or on Colab/Kaggle it installs cleanly with pip
+econml>=0.15.0
+
+# Notebook
+notebook>=7.0
+ipywidgets>=8.0
+
+# Dashboard (optional)
+streamlit>=1.35
+
+# Data storage
+pyarrow>=14.0  # for .parquet files
+
+# Progress bars
+tqdm>=4.66
